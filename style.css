@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fon{
+    height: 623px;
+    width: 1366px;
+    background-image:url("bmw.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.zatemnena{
+    height: 623px;
+    width: 1366px;
+    background-color: rgba(0, 0, 0, 0.671);
+    position: relative;
+}
+.verh{
+    width: 100%;
+    height: 450px;
+}
+/*Серце*/
+.rotate{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 100px;
+    transform: rotate(-90deg);
+}
+.rotate:nth-child(2){
+    left: 1159px;
+    top: -5px;
+}
+.heart {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 50px;
+    left: 40px;
+    background-color: rgba(0, 0, 0, 0.911);
+    transform: rotate(45deg);
+    z-index: -1;
+  }
+  
+  .heart::before,
+  .heart::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.911);
+  }
+  
+  .heart::before {
+    border-radius: 50%;
+    top: -50px;
+    left: 0;
+  }
+  
+  .heart::after {
+    border-radius: 50%;
+    top: 0;
+    left: 50px;
+  }
+  /*Текст*/
+  .Text{
+    width: 650px;
+    color: blueviolet;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 5px;
+    font-size: 60px;
+    position: relative;
+    text-shadow: 2px 0px rgb(43, 226, 52);
+    top: -250px;
+    left: 400px;
+  }
+  .sulka{
+    text-decoration: none;
+    position: relative;
+    top:-200px ;
+    left: 650px;
+    color: rgb(1, 1, 2);
+    font-size: 24px;
+    font-style:italic;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .sulka:hover{
+    color: yellow;
+  }
+
+
